@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .brand img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #253f30;
+}
+
+body {
+    background-color: rgb(219, 240, 191);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #181010;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #709222;
+}
+
+#projects ul{
+    list-style-type: disc;
+    padding: 10px; 
+    
+}
+ #projects img{
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+ }
+ #projects a{
+    display: block;
+    margin-top: 5px;
+    padding: 20px;
+    text-decoration: underline;
+ }
+
+
+
+#contact {
+    padding:40px;
+
+}
+#contact infut,
+#contact textarea{
+    width:90%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:30px;
+}
+
+#contact button{
+    background-color: #1d640c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#contact button:hover {
+    background-color: #b2f0ac;
+}
